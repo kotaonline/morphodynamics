@@ -13,3 +13,4 @@ Kota, P., Terrell, E.M., Ritt, D.A., Insinna, C., Westlake, C.J., and Morrison, 
 ### How to run this code?
 
 Please see the example directory for sample results
+Please note that this package comes with MatPIV 1.7 which was used for developing the code. A few changes were made to the MatPIV code to fit our requirements. We strongly recommend using the MatPIV version provided with this package. Please cite MatPIV along with the citation to our publication provided above.
