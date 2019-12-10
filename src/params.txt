@@ -1,6 +1,0 @@
-expType=scratch
-pixelSize=1.29
-timePerFrame=5
-overlap=0.5
-overwrite=0
-edges=1
