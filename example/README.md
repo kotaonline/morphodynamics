@@ -16,6 +16,7 @@ where input tif file is a multi-page tiff containing one frame of the timelapse 
 
 ## Output tree
 
+```
  % parentDir - directory in which input tif file is present
  %  |
  %  ---> expDir - has the same name as input tif file without ext
@@ -46,5 +47,6 @@ where input tif file is a multi-page tiff containing one frame of the timelapse 
  %  |
  %  ---> log - temporary directory to hold all log files in parallel
  %  loops. Note that this directory is deleted once log files are
- %  consolidated.`
+ %  consolidated.
+ ```
     
