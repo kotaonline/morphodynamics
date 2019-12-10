@@ -1,0 +1,28 @@
+Number of frames: 169
+Image size: 320x480
+Experiment name: 10A-CPyo-Scratch-0001_Myr-Res-1-scaled-reg-L
+Camera pixel size (um): 1.290000
+Pixels per micron: 0.775194
+Interrogation window overlap: 0.500000
+World coordinate file in place? ... yes
+ 
+More details about the experiment can be found in the params.mat file
+ 
+*** Initializing PIV mask generation ***
+*** Generated all masks for PIV ***
+ 
+*** Computing velocity fields ***
+*** Finished computing velocity fields ***
+ 
+*** Generating velocity field figures and kymographs ***
+*** Finished generating figures ***
+ 
+*** Starting spatial correlation analysis ***
+*** Generated spatial correlation profiles and images ***
+ 
+*** Starting BOD analysis ***
+*** Done with BOD analysis ***
+ 
+*** All done! Cleaning up... ***
+Good bye!
+ 
