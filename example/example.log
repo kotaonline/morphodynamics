@@ -1,6 +1,6 @@
 Number of frames: 169
 Image size: 320x480
-Experiment name: 10A-CPyo-Scratch-0001_Myr-Res-1-scaled-reg-L
+Experiment name: shCPyoRes_Myr-Res-1-reg-L
 Camera pixel size (um): 1.290000
 Pixels per micron: 0.775194
 Interrogation window overlap: 0.500000
@@ -17,7 +17,8 @@ More details about the experiment can be found in the params.mat file
 *** Generating velocity field figures and kymographs ***
 *** Finished generating figures ***
  
-*** Starting spatial correlation analysis ***
+Looks like we are analyzing scatter assays today!
+There isn't much else for me to do here then
 *** Generated spatial correlation profiles and images ***
  
 *** Starting BOD analysis ***
