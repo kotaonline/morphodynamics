@@ -10,3 +10,4 @@ The quality of output depends on the quality of input -- Garbage in Garbage out!
 
 ## Command-line for analysis
 
+>> morphodynamics('/input/tif/file','/input/parameter/file');
