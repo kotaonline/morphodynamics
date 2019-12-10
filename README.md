@@ -20,8 +20,13 @@ Please note that this package comes with MatPIV 1.7 which was used for developin
 For starts, you need MatLab (Duh!). Here are additional dependencies
 
 >> [fList, pList] = matlab.codetools.requiredFilesAndProducts('morphodynamics.m');
+
 >> {pList.Name}'
-ans = 
+
+ans =
+
     'MATLAB'
+    
     'Image Processing Toolbox'
+    
     'Statistics Toolbox'
