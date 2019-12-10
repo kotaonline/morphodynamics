@@ -10,42 +10,41 @@ The quality of output depends on the quality of input -- Garbage in Garbage out!
 
 ## Command-line for analysis
 
->> morphodynamics('/input/tif/file','/input/parameter/file');
+> morphodynamics('/input/tif/file','/input/parameter/file');
 
 where input tif file is a multi-page tiff containing one frame of the timelapse movie per page. Sample input tif and parameter files are provided in the example directory. The parameter file contains basic information about the experiment such as camera scaling and frame rate.
 
 ## Output tree
 
-> % parentDir - directory in which input tif file is present
-
-> %  |
-    %  ---> expDir - has the same name as input tif file without ext
-    %  |
-    %  ---> Preprocess
-    %        |
-    %        ---> iframes - individual frames in the multiframe tiff
-    %        |
-    %        ---> overlay - tifs overlaid with detected scratch edge
-    %        |
-    %        ---> maskmat - mat file masks removing areas with no cells
-    %        |
-    %        ---> masktif - same mask files as in mat, but in tif format
-    %  |
-    %  ---> PIV - contains all PIV analysis
-    %        |
-    %        ---> velFields - contains images with quiver plots
-    %        |
-    %        ---> OrderParam - contains images with quiver plots
-    %  |
-    %  ---> Postprocess
-    %        |
-    %        ---> Kymograph - contains velocity and orderparam kymographs
-    %        |
-    %        ---> DistCorr  - contains spatial correlation data and plots
-    %        |
-    %        ---> BOD - contains biorthogonal decomposition data and plots
-    %  |
-    %  ---> log - temporary directory to hold all log files in parallel
-    %  loops. Note that this directory is deleted once log files are
-    %  consolidated.
+ % parentDir - directory in which input tif file is present
+ %  |
+ %  ---> expDir - has the same name as input tif file without ext
+ %  |
+ %  ---> Preprocess
+ %        |
+ %        ---> iframes - individual frames in the multiframe tiff
+ %        |
+ %        ---> overlay - tifs overlaid with detected scratch edge
+ %        |
+ %        ---> maskmat - mat file masks removing areas with no cells
+ %        |
+ %        ---> masktif - same mask files as in mat, but in tif format
+ %  |
+ %  ---> PIV - contains all PIV analysis
+ %        |
+ %        ---> velFields - contains images with quiver plots
+ %        |
+ %        ---> OrderParam - contains images with quiver plots
+ %  |
+ %  ---> Postprocess
+ %        |
+ %        ---> Kymograph - contains velocity and orderparam kymographs
+ %        |
+ %        ---> DistCorr  - contains spatial correlation data and plots
+ %        |
+ %        ---> BOD - contains biorthogonal decomposition data and plots
+ %  |
+ %  ---> log - temporary directory to hold all log files in parallel
+ %  loops. Note that this directory is deleted once log files are
+ %  consolidated.`
     
