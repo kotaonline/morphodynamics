@@ -11,3 +11,5 @@ The quality of output depends on the quality of input -- Garbage in Garbage out!
 ## Command-line for analysis
 
 >> morphodynamics('/input/tif/file','/input/parameter/file');
+
+where input tif file is a multi-page tiff containing one frame of the timelapse movie per page. An example parameter file is provided in the example directory. This file contains basic information about the experiment such as camera scaling and frame rate.
