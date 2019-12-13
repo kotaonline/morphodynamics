@@ -2,7 +2,7 @@ Please read the following carefully to understand how to run this code successfu
 
 ## Runtime Environment
 
-Requires MatPIV and its subdirectories to be accessible during runtime 
+Requires MatPIV and its subdirectories to be accessible during runtime. This is currently hard-coded into init.m. If you change the directory organization of the src files, please ensure that paths are set for the MatPIV files.
 
 ## Quality of input data
 
