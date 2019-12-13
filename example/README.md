@@ -14,7 +14,7 @@ Depending on the cell type being analyzed, it might be prudent to determine the 
 
 > morphodynamics('/input/tif/file','/input/parameter/file');
 
-where input tif file is a multi-page tiff containing one frame of the timelapse movie per page. Sample input tif and parameter files are provided in the example directory. The parameter file contains basic information about the experiment such as camera scaling and frame rate.
+where input tif file is a multi-page tiff containing one frame of the timelapse movie per page. Sample input tif and parameter files are provided in the example directory. The parameter file contains basic information about the experiment such as camera scaling and frame rate. Please see the params.txt in the example directory for keywords and input format.
 
 ## Output tree
 
