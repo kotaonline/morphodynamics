@@ -8,6 +8,8 @@ Requires MatPIV and its subdirectories to be accessible during runtime
 
 The quality of output depends on the quality of input -- Garbage in Garbage out! More often than not, stage drift becomes a factor during image acquisition. This drift causes undesirable artifacts in PIV analysis. For instance, very large values for velocities are artifically assumed due to stage movement even when negligible cell movement is present between successive frames. To avoid problems due to stage drift, an optional drift correction function (imgReg_wrapper.m) is included in the src directory. This function uses dftregistration.m developed by Manuel Guizar for sub-pixel registration of two images.
 
+Depending on the cell type being analyzed, it might be prudent to determine the optimal frame rate for image acquisition. We found that 3-5 min between frames works well for many epithelial cell types that we have tested.
+
 ## Command-line for analysis
 
 > morphodynamics('/input/tif/file','/input/parameter/file');
