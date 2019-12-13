@@ -1,8 +1,8 @@
 Please read the following carefully to understand how to run this code successfully.
 
-## Setting the environment
+## Runtime Environment
 
-Make sure the src directory and the MatPIV subdirectory are in your MatLab path. Alternatively, you could run the code from the src directory with relative links to input directories
+Requires MatPIV and its subdirectories to be accessible during runtime 
 
 ## Quality of input data
 
