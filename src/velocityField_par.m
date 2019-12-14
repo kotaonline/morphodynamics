@@ -5,7 +5,7 @@ function [params, dirs] = velocityField_par(params,dirs)
     masterpivfile = [dirs.pivDir filesep 'masterPIV.mat'];
     kymomat       = [ dirs.kymo 'kymograph.mat'];
     mastervelmat  = [ dirs.pivDir 'masterVels.mat'];
-    
+    params.min_win_size = 16;   
     % Check to see if PIV has already been done on this image. The only way
     % I check is to see if masterPIV.mat exists in the PIV sub-directory.
     
@@ -20,8 +20,6 @@ function [params, dirs] = velocityField_par(params,dirs)
         local_woco  = params.woco;
 
         %local_vmax = params.vmax; %need to update original when parfor is done
-
-        params.min_win_size = 16;
 
         % Compute PIV matrix size. This is done in the PIV code. We need to
         % generate this here for initializing arrays to store PIV data from
