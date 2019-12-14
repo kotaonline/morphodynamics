@@ -13,7 +13,7 @@ function [params, dirs] = generatePIVMasks_par(params, dirs)
         
         Img = imsubtract(Img1,Img2);
         
-        [params, dirs] = generateMask(Img,Img1,i,params,dirs);
+        [~,~] = generateMask(Img,Img1,i,params,dirs);
     end
 
 end

@@ -1,4 +1,15 @@
 function [params, dirs] = makeFigs(params, dirs, varargin)
+%% Set default variables
+% The following is not ideal for most applications. Run makeFigs after
+% analysis with makeFigs(params, dirs, sMax, figR, figW,
+% figH) as parameters. As an example, makeFigs(params, dirs, 60, 300, 1920,
+% 2880); Default values for figW and figH are drawn from params, which
+% correspond to the width and height values of the input images
+
+figW = params.width;
+figH = params.height;
+figR = 72;
+
 %% Initialize variables based on varargin input
 
     if(nargin>=3)
